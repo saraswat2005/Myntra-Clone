@@ -1,0 +1,242 @@
+.fakeheader{
+    width:100%;
+ background-color: black;
+    height: 70px;
+    
+
+}
+.body{
+    display: flex;
+    margin-top: 50px;
+    height: 100%;
+    width: 80%;
+   margin: 50px 80px;
+   
+
+}
+body{
+    background-color: grey;
+}
+.cartsection{
+    width: 50%;
+  
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+}
+.subtotal{
+    width: 300px;
+   text-align: center;
+   border: 0.01px solid rgb(224, 223, 223);
+   height: 400px;
+  background-color: white;
+  color:black;
+ 
+}
+.darksubtotal{
+    width: 300px;
+    text-align: center;
+    border: 0.01px solid rgb(9, 0, 0);
+    height: 400px;
+  background-color: rgb(95, 95, 96); 
+  color:white;
+}
+.item{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  border: 0.01px solid rgb(224, 223, 223);
+    height: 230px;
+    display: flex;
+   
+    min-width: 350px;
+}
+.darkitem{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+ 
+    height: 230px;
+    display: flex;
+    background-color: rgb(95, 95, 96); 
+  color:white;
+    min-width: 350px;
+}
+.image{
+
+height: 196px;
+width: 30%;
+}
+.img2{
+    background-size: contain;
+    height: 196px;
+    width: 100%;
+}
+.title{
+    text-align:start;
+    margin-left: 6px;
+    
+}
+.details{
+    width: 70%;
+    
+}
+.title2{
+    font-size: smaller;
+    margin-left: 6px;
+}
+.quantity{
+    margin-left: 6px;
+    margin-top: 7px;
+}
+.price{
+    margin-left: 6px;
+    margin-top: 7px;
+}
+.price2{
+    text-decoration: line-through;
+    color: rgb(254, 77, 68);
+    margin-left: 5px;
+}
+.btt{
+    margin-left: 6px;
+}
+.cashsection{
+    display: flex;
+    width: 100%;
+}
+.cashsection{
+padding: 10px;
+ display: flex;
+ justify-content: space-between;
+}
+.Total{
+    text-align: left;
+    margin-left: 12px;
+    font-weight: 700;
+}
+.pricedetails{
+    margin-top: 10px;
+}
+.finalcash{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.finalamount{
+    margin-right: 18px;
+    font-weight: 700;
+}
+.cartdetails{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 4px;
+   
+}
+.button2{
+    background-color: rgb(251, 98, 124);
+    border: none;
+    padding: 5px 10px;
+    width: 250px;
+    color: white;
+    margin-top: 40px;
+  }
+.cashtotal{
+    align-items:baseline;
+    justify-items: right;
+    display: flex;
+    flex-direction: column;
+   margin-right: 5px;
+   
+}
+.addtocart2{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(251, 98, 124);
+}
+.discount{
+    color:rgb(0, 183, 122)
+}
+.quantity{
+    display: flex;
+    
+}
+@media screen and (max-width:1010px){
+    
+    .subtotal{
+        margin-left: 50px;
+    }
+    .darksubtotal{
+        margin-left: 50px;
+    }}
+    @media screen and (max-width:870px){
+    
+        .subtotal{
+            margin-left: 90px;
+        }
+        .darksubtotal{
+            margin-left: 90px;
+        }
+    @media screen and (max-width:850px){
+        .subtotal{
+     
+     margin-left: 0px;
+        }
+        .darksubtotal{
+     
+            margin-left: 0px;
+               }
+    .body{
+        display: block;
+    }}
+    
+    
+}
+
+@media screen and (max-width:480px){
+    .body{
+        margin: 50px 40px;
+    }
+}
+@media screen and (max-width:450px){
+    .body{
+        margin: 50px 5px;
+    }
+}
+@media screen and (max-width:405px){
+    .body{
+        margin: 50px 4px;
+        display: block;
+    }
+    .title2{
+        font-size: xx-small;
+    }
+    .titele{
+        min-width: none;
+    }
+    .subtotal{
+        width: 100%;
+    }
+    .darksubtotal{
+        width: 100%;
+    }
+}
+@media screen and (max-width:402x){
+.item{
+    min-width: none;
+}
+.darkitem{
+    min-width: 0;
+}
+.body{
+    margin: 50px 4px;
+}
+}
+
+
+ 

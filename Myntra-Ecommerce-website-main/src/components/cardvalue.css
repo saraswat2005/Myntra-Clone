@@ -1,0 +1,25 @@
+.val{
+    display: flex;
+  
+    justify-content:space-evenly;
+    width: 100%;
+    height: 58px;
+    margin-left: 20px;
+}
+.dec{
+    border: none;
+    background-color: transparent;
+    font-size: x-large;
+    font-weight: 400;
+}
+.value{
+    margin-top: 6px;
+    font-size: x-large;
+    font-weight: 400;
+}
+.countdown{
+    height: 5px;
+    width: 50px;
+    cursor: pointer;
+    text-align:left;
+}

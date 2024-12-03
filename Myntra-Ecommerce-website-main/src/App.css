@@ -1,0 +1,18 @@
+
+.dark{
+background-color: black;
+color:white
+}
+.light{
+    background-color: white;
+    color:black;
+
+}
+*{
+    transition: background  0.2s ease-out;
+   
+}
+.text-body-secondary {
+    --bs-text-opacity: 1;
+    color: rgba(38, 126, 215, 0.75) !important;
+}
